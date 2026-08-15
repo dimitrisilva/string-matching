@@ -31,9 +31,9 @@ The notebook walks through matching two lists of city names that overlap only pa
 ```python
 str_matches = match_strings(
     strlist1, strlist2,
-    metric="levenshtein", cutoff=5,
-    normalize=True, reorder=True,
-    remove=["-", ".", "'"]
+    metric = "levenshtein", cutoff = 5,
+    normalize = True, reorder = True,
+    remove = ["-", ".", "'"]
 )
 ```
 
